@@ -86,11 +86,10 @@ def check_username(username):
         ),
         "Content-Type": "application/json",
         "Accept": "*/*",
-        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Language": "en-US,en;q=0.9",
         "Origin": "https://discord.com",
         "Referer": "https://discord.com/register",
-        "X-Discord-Locale": "ko",
-        "X-Discord-Timezone": "Asia/Seoul"
+        "X-Discord-Locale": "en-US"
     }
 
     payload = {

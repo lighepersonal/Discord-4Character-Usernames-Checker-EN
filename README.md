@@ -16,7 +16,7 @@ It sends each generated username to Discord's username API and saves available a
 | Several threads at once (3–5 recommended) | One check at a time, with a pause between checks |
 | On a rate limit: switches proxy and skips the name | On a rate limit: waits as long as Discord asks, slows down, and re-checks the same name |
 | SSL certificate verification turned off | SSL certificate verification on (normal HTTPS) |
-| Korean on-screen text | English on-screen text |
+| Korean on-screen text and Korean/Seoul browser settings | English on-screen text and English browser settings |
 
 Because everything comes from your own connection, it is much slower than the proxy version. Discord allows only about 20 checks from one IP before making it wait roughly 30 minutes, so expect around 40 checks per hour no matter what delay you choose.
 
