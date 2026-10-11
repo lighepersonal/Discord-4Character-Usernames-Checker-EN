@@ -1,0 +1,8 @@
+# Output files
+available.txt
+taken.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
